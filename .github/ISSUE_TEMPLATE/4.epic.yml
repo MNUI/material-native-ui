@@ -1,0 +1,29 @@
+name: Epic 🪡
+description: an "epic" is a high-level concept or goal that is broken down into smaller,
+  more manageable tasks or stories.
+labels: ['epic']
+title: '[epic] '
+body:
+  - type: textarea
+    attributes:
+      label: Issue description
+      value: |
+        [Description]
+        
+        ### Import
+        ```
+        import ****** from '@mnui/material/******';
+        // or
+        import { ****** } from '@mnui/material';
+        ```
+        
+        
+        
+        ### Props
+        Props of the native component are also available.
+        
+        | Name      | Type                                                    | Default     | Description                                                                                                                                                                                                         |
+        | --------- | ------------------------------------------------------- | ----------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+        | children  | node                                                    |             | The content of the component.                                                                                                                                                                                       |
+        
+        The ref is forwarded to the root element.
